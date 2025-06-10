@@ -1,0 +1,5 @@
+boto3
+pandas
+sqlalchemy
+pymysql  # or psycopg2 for PostgreSQL
+lxml     # For XML parsing

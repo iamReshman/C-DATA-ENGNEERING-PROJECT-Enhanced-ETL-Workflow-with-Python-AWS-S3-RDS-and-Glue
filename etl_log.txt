@@ -1,0 +1,130 @@
+
+025-06-09 18:41:06,497 - ETL pipeline failed: Unable to locate credentials
+2025-06-09 18:42:28,373 - ETL pipeline failed: Unable to locate credentials
+2025-06-09 18:46:29,459 - ETL pipeline failed: Unable to locate credentials
+2025-06-09 20:11:49,100 - INFO - ETL pipeline started.
+2025-06-09 20:11:49,112 - ERROR - Pipeline failed: Unable to locate credentials
+2025-06-09 20:17:58,349 2- INFO - ETL pipeline started.
+2025-06-09 20:17:58,359 - ERROR - Pipeline failed: Unable to locate credentials
+2025-06-09 20:20:51,160 - INFO - Found credentials in shared credentials file: ~/.aws/credentials
+2025-06-09 20:20:51,473 - INFO - ETL pipeline started.
+
+2025-06-09 20:22:42,879 - INFO - Found credentials in shared credentials file: ~/.aws/credentials
+2025-06-09 20:22:43,192 - INFO - ETL pipeline started.
+2025-06-09 20:22:44,401 - INFO - S3 bucket 'my-etl-bucket-unique123456' already exists.
+2025-06-09 20:22:46,686 - INFO - RDS instance creation started. This may take a few minutes.
+2025-06-09 20:24:28,357 - INFO - Found credentials in shared credentials file: ~/.aws/credentials
+2025-06-09 20:24:28,681 - INFO - ETL pipeline started.
+2025-06-09 20:24:29,931 - INFO - S3 bucket 'my-etl-bucket-unique123456' already exists.
+2025-06-09 20:24:31,831 - INFO - RDS instance already exists.
+2025-06-09 20:24:32,717 - ERROR - Pipeline failed: 'Endpoint'
+2025-06-09 20:30:46,605 - INFO - Found credentials in shared credentials file: ~/.aws/credentials
+2025-06-09 20:30:46,930 - INFO - ETL pipeline started.
+2025-06-09 20:30:48,262 - INFO - S3 bucket 'my-etl-bucket-unique123456' already exists.
+2025-06-09 20:30:49,644 - INFO - RDS instance already exists.
+2025-06-09 20:30:51,109 - INFO - Glue database 'etl_glue_db' created.
+2025-06-09 20:30:52,531 - ERROR - Pipeline failed: An error occurred (NoSuchEntity) when calling the GetRole operation: The role with name AWSGlueServiceRole cannot be found.
+2025-06-09 20:30:54,430 - INFO - Found credentials in shared credentials file: ~/.aws/credentials
+2025-06-09 20:30:54,790 - INFO - ETL pipeline started.
+2025-06-09 20:30:56,555 - INFO - S3 bucket 'my-etl-bucket-unique123456' already exists.
+2025-06-09 20:30:58,214 - INFO - RDS instance already exists.
+2025-06-09 20:30:59,906 - INFO - Glue database 'etl_glue_db' already exists.
+2025-06-09 20:31:01,301 - ERROR - Pipeline failed: An error occurred (NoSuchEntity) when calling the GetRole operation: The role with name AWSGlueServiceRole cannot be found.
+2025-06-09 20:31:18,890 - INFO - Found credentials in shared credentials file: ~/.aws/credentials
+2025-06-09 20:31:19,210 - INFO - ETL pipeline started.
+2025-06-09 20:31:20,300 - INFO - S3 bucket 'my-etl-bucket-unique123456' already exists.
+2025-06-09 20:31:22,161 - INFO - RDS instance already exists.
+2025-06-09 20:31:23,599 - INFO - Glue database 'etl_glue_db' already exists.
+2025-06-09 20:31:25,363 - ERROR - Pipeline failed: An error occurred (NoSuchEntity) when calling the GetRole operation: The role with name AWSGlueServiceRole cannot be found.
+2025-06-09 20:20:53,322 - INFO - S3 bucket 'my-etl-bucket-unique123456' created.
+2025-06-09 20:20:55,066 - ERROR - Pipeline failed: An error occurred (InvalidParameterValue) when calling the CreateDBInstance operation: The parameter MasterUserPassword is not a valid password. Only printable ASCII characters besides '/', '@', '"', ' ' may be used.2025-06-10 08:16:27,883 - INFO - Found credentials in shared credentials file: ~/.aws/credentials
+2025-06-10 08:16:28,654 - INFO - ETL pipeline started.
+2025-06-10 08:16:39,537 - INFO - Found credentials in shared credentials file: ~/.aws/credentials
+2025-06-10 08:16:39,857 - INFO - ETL pipeline started.
+2025-06-10 08:16:41,343 - INFO - S3 bucket 'my-etl-bucket-unique123456' already exists.
+2025-06-10 08:16:43,343 - INFO - RDS instance already exists.
+2025-06-10 08:16:53,554 - INFO - Glue database 'etl_glue_db' already exists.
+2025-06-10 08:16:56,091 - ERROR - Pipeline failed: An error occurred (NoSuchEntity) when calling the GetRole operation: The role with name AWSGlueServiceRole cannot be found.
+2025-06-10 08:19:46,226 - INFO - Found credentials in shared credentials file: ~/.aws/credentials
+2025-06-10 08:19:50,504 - INFO - IAM role 'AWSGlueServiceRole' created and policies attached.
+2025-06-10 08:19:50,504 - INFO - ETL pipeline started.
+2025-06-10 08:19:52,140 - INFO - S3 bucket 'my-etl-bucket-unique123456' already exists.
+2025-06-10 08:19:54,593 - INFO - RDS instance already exists.
+2025-06-10 08:19:57,134 - INFO - Glue database 'etl_glue_db' already exists.
+2025-06-10 08:20:00,706 - INFO - Glue crawler created and started.
+2025-06-10 08:20:00,708 - ERROR - Pipeline failed: [Errno 2] No such file or directory: 'unzipped_folder/data1.csv'
+2025-06-10 08:25:46,327 - INFO - Found credentials in shared credentials file: ~/.aws/credentials
+2025-06-10 08:25:48,177 - INFO - IAM role 'AWSGlueServiceRole' already exists.
+2025-06-10 08:25:48,177 - INFO - ETL pipeline started.
+2025-06-10 08:25:49,438 - INFO - S3 bucket 'my-etl-bucket-unique123456' already exists.
+2025-06-10 08:25:50,898 - INFO - RDS instance already exists.
+2025-06-10 08:25:52,335 - INFO - Glue database 'etl_glue_db' already exists.
+2025-06-10 08:25:54,162 - INFO - Glue crawler already exists.
+2025-06-10 08:25:54,162 - ERROR - Pipeline failed: [Errno 2] No such file or directory: 'unzipped_folder/source1.csv'
+2025-06-10 08:30:38,272 - INFO - Found credentials in shared credentials file: ~/.aws/credentials
+2025-06-10 08:30:40,193 - INFO - IAM role 'AWSGlueServiceRole' already exists.
+2025-06-10 08:30:40,193 - INFO - ETL pipeline started.
+2025-06-10 08:30:41,222 - INFO - S3 bucket 'my-etl-bucket-unique123456' already exists.
+2025-06-10 08:30:42,611 - INFO - RDS instance already exists.
+2025-06-10 08:30:44,070 - INFO - Glue database 'etl_glue_db' already exists.
+2025-06-10 08:30:45,938 - INFO - Glue crawler already exists.
+2025-06-10 08:30:45,975 - ERROR - Pipeline failed: Extra data: line 2 column 1 (char 47)
+2025-06-10 08:39:09,185 - INFO - Found credentials in shared credentials file: ~/.aws/credentials
+2025-06-10 08:39:09,545 - INFO - ETL pipeline started.
+2025-06-10 08:39:10,799 - INFO - S3 bucket 'my-etl-bucket-unique123456' already exists.
+2025-06-10 08:39:12,463 - INFO - RDS instance already exists.
+2025-06-10 08:39:14,866 - INFO - IAM role 'AWSGlueServiceRole' already exists.
+2025-06-10 08:39:15,575 - INFO - Glue database 'etl_glue_db' already exists.
+2025-06-10 08:39:16,076 - INFO - Glue crawler already exists.
+2025-06-10 08:39:16,236 - INFO - Uploaded transformed_data.csv to S3 as transformed_data.csv
+2025-06-10 08:39:16,283 - ERROR - Pipeline failed: No module named 'pymysql'
+2025-06-10 08:40:16,230 - INFO - Found credentials in shared credentials file: ~/.aws/credentials
+2025-06-10 08:40:16,559 - INFO - ETL pipeline started.
+2025-06-10 08:40:17,781 - INFO - S3 bucket 'my-etl-bucket-unique123456' already exists.
+2025-06-10 08:40:19,095 - INFO - RDS instance already exists.
+2025-06-10 08:40:21,483 - INFO - IAM role 'AWSGlueServiceRole' already exists.
+2025-06-10 08:40:22,158 - INFO - Glue database 'etl_glue_db' already exists.
+2025-06-10 08:40:22,621 - INFO - Glue crawler already exists.
+2025-06-10 08:40:22,748 - INFO - Uploaded transformed_data.csv to S3 as transformed_data.csv
+2025-06-10 08:40:33,617 - ERROR - Pipeline failed: (pymysql.err.OperationalError) (2003, "Can't connect to MySQL server on 'etl-mysql-db.c9y8eyuekmgp.ap-south-1.rds.amazonaws.com' (timed out)")
+(Background on this error at: https://sqlalche.me/e/20/e3q8)
+2025-06-10 08:55:25,751 - INFO - Found credentials in shared credentials file: ~/.aws/credentials
+2025-06-10 08:55:26,130 - INFO - ETL pipeline started.
+2025-06-10 08:55:27,396 - INFO - S3 bucket 'my-etl-bucket-unique123456' already exists.
+2025-06-10 08:55:28,831 - INFO - RDS instance already exists.
+2025-06-10 08:55:31,487 - INFO - IAM role 'AWSGlueServiceRole' already exists.
+2025-06-10 08:55:32,195 - INFO - Glue database 'etl_glue_db' already exists.
+2025-06-10 08:55:32,656 - INFO - Glue crawler already exists.
+2025-06-10 08:55:32,772 - INFO - Uploaded transformed_data.csv to S3 as transformed_data.csv
+2025-06-10 08:55:43,016 - ERROR - Pipeline failed: (pymysql.err.OperationalError) (2003, "Can't connect to MySQL server on 'etl-mysql-db.c9y8eyuekmgp.ap-south-1.rds.amazonaws.com' (timed out)")
+(Background on this error at: https://sqlalche.me/e/20/e3q8)
+2025-06-10 09:02:00,375 - INFO - Found credentials in shared credentials file: ~/.aws/credentials
+2025-06-10 09:02:00,736 - INFO - ETL pipeline started.
+2025-06-10 09:02:01,944 - INFO - S3 bucket 'my-etl-bucket-unique123456' already exists.
+2025-06-10 09:02:03,239 - INFO - RDS instance already exists.
+2025-06-10 09:02:05,674 - INFO - IAM role 'AWSGlueServiceRole' already exists.
+2025-06-10 09:02:06,362 - INFO - Glue database 'etl_glue_db' already exists.
+2025-06-10 09:02:06,950 - INFO - Glue crawler already exists.
+2025-06-10 09:02:07,078 - INFO - Uploaded transformed_data.csv to S3 as transformed_data.csv
+2025-06-10 09:02:17,242 - ERROR - Pipeline failed: (pymysql.err.OperationalError) (2003, "Can't connect to MySQL server on 'etl-mysql-db.c9y8eyuekmgp.ap-south-1.rds.amazonaws.com' (timed out)")
+(Background on this error at: https://sqlalche.me/e/20/e3q8)
+2025-06-10 09:09:02,831 - INFO - Found credentials in shared credentials file: ~/.aws/credentials
+2025-06-10 09:09:03,153 - INFO - ETL pipeline started.
+2025-06-10 09:09:04,338 - INFO - S3 bucket 'my-etl-bucket-unique123456' already exists.
+2025-06-10 09:09:05,775 - INFO - RDS instance already exists.
+2025-06-10 09:09:08,429 - INFO - IAM role 'AWSGlueServiceRole' already exists.
+2025-06-10 09:09:09,152 - INFO - Glue database 'etl_glue_db' already exists.
+2025-06-10 09:09:09,595 - INFO - Glue crawler already exists.
+2025-06-10 09:09:09,745 - INFO - Uploaded transformed_data.csv to S3 as transformed_data.csv
+2025-06-10 09:09:19,917 - ERROR - Pipeline failed: (pymysql.err.OperationalError) (2003, "Can't connect to MySQL server on 'etl-mysql-db.c9y8eyuekmgp.ap-south-1.rds.amazonaws.com' (timed out)")
+(Background on this error at: https://sqlalche.me/e/20/e3q8)
+2025-06-10 09:16:24,670 - INFO - Found credentials in shared credentials file: ~/.aws/credentials
+2025-06-10 09:16:25,083 - INFO - ETL pipeline started.
+2025-06-10 09:16:26,331 - INFO - S3 bucket 'my-etl-bucket-unique123456' already exists.
+2025-06-10 09:16:28,035 - INFO - RDS instance already exists.
+2025-06-10 09:16:30,392 - INFO - IAM role 'AWSGlueServiceRole' already exists.
+2025-06-10 09:16:31,158 - INFO - Glue database 'etl_glue_db' already exists.
+2025-06-10 09:16:31,659 - INFO - Glue crawler already exists.
+2025-06-10 09:16:31,801 - INFO - Uploaded transformed_data.csv to S3 as transformed_data.csv
+2025-06-10 09:16:41,910 - ERROR - Pipeline failed: (pymysql.err.OperationalError) (2003, "Can't connect to MySQL server on 'etl-mysql-db.c9y8eyuekmgp.ap-south-1.rds.amazonaws.com' (timed out)")
+(Background on this error at: https://sqlalche.me/e/20/e3q8)
